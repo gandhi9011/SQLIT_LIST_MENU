@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.sqlit_list_menu.Main2Activity"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+    <GridView
+        android:id="@+id/lvCustomList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:numColumns="1"/>
+
+</LinearLayout>
+</ScrollView>
